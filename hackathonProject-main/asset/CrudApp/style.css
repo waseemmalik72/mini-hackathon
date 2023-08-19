@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,300;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+.header {
+    width: 1519px;
+}
+
+.navbar {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffff;
+    background: #7749F8;
+    padding: 6px 166px 6px 166px;
+}
+
+.navbar .username {
+    display: flex;
+
+}
+
+.logout>a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #ffff;
+}
+
+.page-header {
+    padding: 0px 166px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background: #f8f9fa;
+    border-bottom: 1px solid #80808045;
+    border-top: 1px solid gray;
+}
+
+.main-blog {
+    padding: 50px 0 0 166px;
+}
+
+.post-section {
+    background-color: #fff;
+    width: 881px;
+    padding: 40px 0 40px 44px;
+    box-shadow: 4px 4px 10px #0000008a;
+}
+
+.post-input>input {
+    width: 760px;
+    height: 40px;
+    border-radius: 11px;
+    padding: 0 10px;
+    margin-bottom: 19px;
+    border: 1px solid gray;
+}
+
+.post-input>input:focus {
+    outline: 2px solid blue;
+}
+
+.textarea>#post-textarea {
+    width: 760px;
+    height: 114px;
+    padding: 7px;
+}
+
+.textarea>#post-textarea:focus {
+    outline: 2px solid blue;
+}
+
+.post-section>.publish-blog {
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    background: #7749F8;
+    color: #ffff;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+.heading-section .blog-heading {
+    margin: 25px 0 25px 0;
+    font-size: 24px;
+}
+
+.blog-card {
+    width: 881px;
+    background-color: #ffffff;
+    padding: 20px 40px;
+    line-height: 28px;
+    box-shadow: 4px 4px 10px #0000008a;
+    margin-bottom: 30px;
+}
+
+.blog-section {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.blog-card .color-gray {
+    color: #0000008f;
+}
+
+.blog-section .profile {
+    width: 80px;
+    height: 80px;
+    margin-right: 18px;
+}
+
+.profile img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.blog-card .subtitle-heading {
+    width: 324px;
+}
+
+.blog-card .delete,
+.edit {
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: #7749F8;
+    cursor: pointer;
+}
+
+.blog-card .delete {
+    margin-right: 10px;
+}
